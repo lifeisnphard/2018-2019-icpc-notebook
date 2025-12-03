@@ -1,0 +1,47 @@
+# Compiled executables
+*.exe
+*.out
+a.out
+
+# Object files
+*.o
+*.obj
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# LaTeX auxiliary files
+*.aux
+*.log
+*.toc
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.pdf
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+/tmp/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test files (if any)
+test_*.cpp
+test_*.py
+input.txt
+output.txt

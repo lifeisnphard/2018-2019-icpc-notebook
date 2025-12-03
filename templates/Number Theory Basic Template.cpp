@@ -20,7 +20,7 @@ inline int cmp(ld x, ld y = 0, ld tol = EPS) {
   return (x <= y + tol) ? (x + tol < y) ? -1 : 0 : 1;
 }
 
-const int MOD = 1;
+const int MOD = 1; // TODO: Set to appropriate modulus (e.g., 1000000007, 998244353)
 inline int mod(ll x, int m = MOD){
   return (int)(((x%m) + m)%m);
 }
@@ -65,7 +65,7 @@ ll get_inv(ll a, ll m = MOD){
 }
 
 ll modpow(ll a, ll x, ll m = MOD){
-	if(x < 0) return inv(modpow(a, -x, m), m);
+	if(x < 0) return get_inv(modpow(a, -x, m), m);
 	
 	ll ret = 1;
 	while(x){

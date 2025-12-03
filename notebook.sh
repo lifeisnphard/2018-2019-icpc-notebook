@@ -1,6 +1,6 @@
 #!/bin/bash
 # Script to generate LaTeX sections for ICPC notebook
-# Usage: ./caderno.sh > notebook_content.tex
+# Usage: ./notebook.sh > notebook_content.tex
 
 echo "% ICPC/IOI Competitive Programming Notebook"
 echo ""

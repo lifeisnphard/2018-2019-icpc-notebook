@@ -45,7 +45,7 @@ This repository is organized by algorithm category and data structure type to fa
 3. Copy the implementation to your solution
 
 ### Building the Notebook PDF
-Use the provided `caderno.sh` script to generate LaTeX sections for creating a printable notebook (requires updating for new structure).
+Use the provided `notebook.sh` script to generate LaTeX sections for creating a printable notebook.
 
 ## 📖 Quick Reference
 
